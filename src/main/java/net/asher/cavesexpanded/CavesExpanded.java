@@ -1,5 +1,8 @@
 package net.asher.cavesexpanded;
 
+import net.asher.cavesexpanded.block.ModBlocks;
+import net.asher.cavesexpanded.item.ModItemGroups;
+import net.asher.cavesexpanded.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,9 @@ public class CavesExpanded implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
