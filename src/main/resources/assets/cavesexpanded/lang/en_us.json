@@ -3,6 +3,8 @@
   "item.cavesexpanded.raw_ruby": "Rough Ruby",
 
   "block.cavesexpanded.ruby_block": "Block of Polished Ruby",
+  "block.cavesexpanded.ruby_ore": "Ruby Ore",
+  "block.cavesexpanded.deepslate_ruby_ore": "Deepslate Ruby Ore",
 
-  "itemgroup.mod": "Caves Expanded Group"
+  "itemgroup.mod": "Caves Expanded Item Group"
 }
