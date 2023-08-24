@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "cavesexpanded:hammer_head"
+    },
+    "i": {
+      "item": "minecraft:stick"
+    },
+    "o": {
+      "item": "cavesexpanded:hilt"
+    }
+  },
+  "pattern": [
+    "  #",
+    " i ",
+    "o  "
+  ],
+  "result": {
+    "item": "cavesexpanded:obsidian_hammer"
+  },
+  "show_notification": true
+}

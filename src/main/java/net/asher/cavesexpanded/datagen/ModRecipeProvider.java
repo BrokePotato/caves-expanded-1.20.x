@@ -61,6 +61,75 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.BREAD),conditionsFromItem(Items.BREAD))
                 .criterion(hasItem(Items.GOLD_INGOT),conditionsFromItem(Items.GOLD_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.GOLDEN_BREAD)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HILT, 1)
+                .pattern("#")
+                .pattern("i")
+                .pattern("#")
+                .input('#', Items.IRON_NUGGET)
+                .input('i', Items.LEATHER)
+                .criterion(hasItem(Items.IRON_NUGGET), conditionsFromItem(Items.IRON_NUGGET))
+                .criterion(hasItem(Items.LEATHER), conditionsFromItem(Items.LEATHER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.HILT)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.OBSIDIAN_HAMMER, 1)
+                .pattern("  #")
+                .pattern(" i ")
+                .pattern("o  ")
+                .input('#', ModItems.HAMMER_HEAD)
+                .input('i', Items.STICK)
+                .input('o', ModItems.HILT)
+                .criterion(hasItem(ModItems.HAMMER_HEAD), conditionsFromItem(ModItems.HAMMER_HEAD))
+                .criterion(hasItem(ModItems.HILT), conditionsFromItem(ModItems.HILT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.OBSIDIAN_HAMMER)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.COPPER_SWORD, 1)
+                .pattern("#")
+                .pattern("#")
+                .pattern("i")
+                .input('#', Items.COPPER_INGOT)
+                .input('i', Items.STICK)
+                .criterion(hasItem(Items.COPPER_INGOT),conditionsFromItem(Items.COPPER_INGOT))
+                .criterion(hasItem(Items.STICK),conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.COPPER_SWORD)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.COPPER_AXE, 1)
+                .pattern("## ")
+                .pattern("#i ")
+                .pattern(" i ")
+                .input('#', Items.COPPER_INGOT)
+                .input('i', Items.STICK)
+                .criterion(hasItem(Items.COPPER_INGOT),conditionsFromItem(Items.COPPER_INGOT))
+                .criterion(hasItem(Items.STICK),conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.COPPER_AXE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.COPPER_PICKAXE, 1)
+                .pattern("###")
+                .pattern(" i ")
+                .pattern(" i ")
+                .input('#', Items.COPPER_INGOT)
+                .input('i', Items.STICK)
+                .criterion(hasItem(Items.COPPER_INGOT),conditionsFromItem(Items.COPPER_INGOT))
+                .criterion(hasItem(Items.STICK),conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.COPPER_PICKAXE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.COPPER_SHOVEL, 1)
+                .pattern("#")
+                .pattern("i")
+                .pattern("i")
+                .input('#', Items.COPPER_INGOT)
+                .input('i', Items.STICK)
+                .criterion(hasItem(Items.COPPER_INGOT),conditionsFromItem(Items.COPPER_INGOT))
+                .criterion(hasItem(Items.STICK),conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.COPPER_SHOVEL)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.COPPER_HOE, 1)
+                .pattern("## ")
+                .pattern(" i ")
+                .pattern(" i ")
+                .input('#', Items.COPPER_INGOT)
+                .input('i', Items.STICK)
+                .criterion(hasItem(Items.COPPER_INGOT),conditionsFromItem(Items.COPPER_INGOT))
+                .criterion(hasItem(Items.STICK),conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.COPPER_HOE)));
 
     }
 }

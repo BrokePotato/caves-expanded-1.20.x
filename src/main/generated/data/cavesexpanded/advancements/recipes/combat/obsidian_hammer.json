@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hammer_head": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cavesexpanded:hammer_head"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_hilt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cavesexpanded:hilt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:obsidian_hammer"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_hammer_head",
+      "has_hilt",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:obsidian_hammer"
+    ]
+  },
+  "sends_telemetry_event": false
+}

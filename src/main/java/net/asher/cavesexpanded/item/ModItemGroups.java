@@ -40,6 +40,15 @@ public class ModItemGroups {
 
                         entries.add(ModItems.GOLDEN_BREAD);
 
+                        entries.add(ModItems.HILT);
+                        entries.add(ModItems.HAMMER_HEAD);
+                        entries.add(ModItems.OBSIDIAN_HAMMER);
+                        entries.add(ModItems.COPPER_SWORD);
+                        entries.add(ModItems.COPPER_AXE);
+                        entries.add(ModItems.COPPER_PICKAXE);
+                        entries.add(ModItems.COPPER_SHOVEL);
+                        entries.add(ModItems.COPPER_HOE);
+
                     }).build());
 
 
