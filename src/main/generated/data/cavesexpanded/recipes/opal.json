@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cavesexpanded:opal_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "cavesexpanded:opal"
+  }
+}

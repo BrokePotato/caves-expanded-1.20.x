@@ -16,10 +16,28 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.mod"))
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
+                        entries.add(ModItems.SAPPHIRE);
+                        entries.add(ModItems.TOPAZ);
+                        entries.add(ModItems.OPAL);
                         entries.add(ModItems.RAW_RUBY);
+                        entries.add(ModItems.RAW_SAPPHIRE);
+                        entries.add(ModItems.RAW_TOPAZ);
+                        entries.add(ModItems.RAW_OPAL);
+
                         entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.SAPPHIRE_BLOCK);
+                        entries.add(ModBlocks.TOPAZ_BLOCK);
+                        entries.add(ModBlocks.OPAL_BLOCK);
+
                         entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.SAPPHIRE_ORE);
+                        entries.add(ModBlocks.TOPAZ_ORE);
+                        entries.add(ModBlocks.OPAL_ORE);
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_TOPAZ_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_OPAL_ORE);
+
                         entries.add(ModItems.GOLDEN_BREAD);
 
                     }).build());

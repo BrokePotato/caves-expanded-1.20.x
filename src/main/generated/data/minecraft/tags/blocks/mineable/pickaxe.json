@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "cavesexpanded:ruby_block",
+    "cavesexpanded:sapphire_block",
+    "cavesexpanded:topaz_block",
+    "cavesexpanded:opal_block",
+    "cavesexpanded:ruby_ore",
+    "cavesexpanded:sapphire_ore",
+    "cavesexpanded:topaz_ore",
+    "cavesexpanded:opal_ore",
+    "cavesexpanded:deepslate_ruby_ore",
+    "cavesexpanded:deepslate_sapphire_ore",
+    "cavesexpanded:deepslate_topaz_ore",
+    "cavesexpanded:deepslate_opal_ore"
+  ]
+}

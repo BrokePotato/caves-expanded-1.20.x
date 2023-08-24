@@ -1,11 +1,26 @@
 {
   "item.cavesexpanded.ruby": "Polished Ruby",
+  "item.cavesexpanded.sapphire": "Polished Sapphire",
+  "item.cavesexpanded.topaz": "Polished Topaz",
+  "item.cavesexpanded.opal": "Polished Opal",
   "item.cavesexpanded.raw_ruby": "Rough Ruby",
+  "item.cavesexpanded.raw_sapphire": "Rough Sapphire",
+  "item.cavesexpanded.raw_topaz": "Rough Topaz",
+  "item.cavesexpanded.raw_opal": "Rough Opal",
   "item.cavesexpanded.golden_bread": "Golden Bread",
 
   "block.cavesexpanded.ruby_block": "Block of Polished Ruby",
+  "block.cavesexpanded.sapphire_block": "Block of Polished Sapphire",
+  "block.cavesexpanded.topaz_block": "Block of Polished Topaz",
+  "block.cavesexpanded.opal_block": "Block of Polished Opal",
   "block.cavesexpanded.ruby_ore": "Ruby Ore",
+  "block.cavesexpanded.sapphire_ore": "Sapphire Ore",
+  "block.cavesexpanded.topaz_ore": "Topaz Ore",
+  "block.cavesexpanded.opal_ore": "Opal Ore",
   "block.cavesexpanded.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.cavesexpanded.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.cavesexpanded.deepslate_topaz_ore": "Deepslate Topaz Ore",
+  "block.cavesexpanded.deepslate_opal_ore": "Deepslate Opal Ore",
 
   "itemgroup.mod": "Caves Expanded Item Group"
 }
