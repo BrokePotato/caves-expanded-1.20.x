@@ -1,4 +1,4 @@
-// 1.20.1	2023-08-24T00:50:04.10597	Caves Expanded/Recipes
+// 1.20.1	2023-08-25T14:35:35.3712402	Caves Expanded/Recipes
 f3528ffeaeffa17a6937ea417360be468d1d9ca6 data\cavesexpanded\advancements\recipes\misc\topaz_from_blasting_raw_topaz.json
 78ca52b5958c0deb37c1a5323890bbe682eba231 data\cavesexpanded\recipes\topaz.json
 8dac597d28b674c41073a8ed91312cebbd5156ed data\cavesexpanded\advancements\recipes\misc\sapphire_from_smelting_sapphire_ore.json
@@ -53,8 +53,8 @@ ea5b89a401f70b473d02bf3182f90278425a43cc data\cavesexpanded\advancements\recipes
 573ada83c1ed76f0a311569580787a3617f110a9 data\cavesexpanded\recipes\opal.json
 862b8f6d5fdc46fd3229799f67d8b0ddbae8a53e data\cavesexpanded\advancements\recipes\misc\topaz_from_smelting_deepslate_topaz_ore.json
 0498ef3a4ade0644b8de771b0ef04e12fee64c52 data\cavesexpanded\recipes\hilt.json
-46398a87b4661c6feee5a312d61aad1e24252d17 data\cavesexpanded\advancements\recipes\misc\opal_from_blasting_deepslate_opal_ore.json
 da37c3d08c95302434a37307642f12ac0a8f79a0 data\cavesexpanded\recipes\ruby_block.json
+46398a87b4661c6feee5a312d61aad1e24252d17 data\cavesexpanded\advancements\recipes\misc\opal_from_blasting_deepslate_opal_ore.json
 0fe7bb225c59a49204ae763b767631c45a5c1465 data\cavesexpanded\advancements\recipes\misc\hilt.json
 56c4c2a21dd6dc07dbe4d2176f81af750a7b4713 data\cavesexpanded\recipes\golden_bread.json
 b44deed353af0019681e4aaf18b433e9a9d584d0 data\cavesexpanded\recipes\sapphire_from_smelting_sapphire_ore.json

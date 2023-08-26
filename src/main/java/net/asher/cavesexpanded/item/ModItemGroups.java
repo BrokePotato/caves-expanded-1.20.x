@@ -49,6 +49,8 @@ public class ModItemGroups {
                         entries.add(ModItems.COPPER_SHOVEL);
                         entries.add(ModItems.COPPER_HOE);
 
+                        entries.add(ModItems.SNAPDRAGON_DISC_MUSIC_DISC);
+
                     }).build());
 
 

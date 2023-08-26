@@ -42,6 +42,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_TOPAZ, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_OPAL, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.SNAPDRAGON_DISC_MUSIC_DISC, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.HILT, Models.GENERATED);
         itemModelGenerator.register(ModItems.HAMMER_HEAD, Models.GENERATED);
 

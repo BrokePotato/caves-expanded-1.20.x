@@ -1,6 +1,7 @@
 package net.asher.cavesexpanded.item;
 
 import net.asher.cavesexpanded.CavesExpanded;
+import net.asher.cavesexpanded.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -8,7 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    //gems
+    //items
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
     public static final Item TOPAZ = registerItem("topaz", new Item(new FabricItemSettings()));
@@ -17,6 +18,8 @@ public class ModItems {
     public static final Item RAW_SAPPHIRE = registerItem("raw_sapphire", new Item(new FabricItemSettings()));
     public static final Item RAW_TOPAZ = registerItem("raw_topaz", new Item(new FabricItemSettings()));
     public static final Item RAW_OPAL = registerItem("raw_opal", new Item(new FabricItemSettings()));
+    public static final Item SNAPDRAGON_DISC_MUSIC_DISC = registerItem("snapdragon_disc_music_disc",
+            new MusicDiscItem(15, ModSounds.SNAPDRAGON_DISC_MUSIC_DISC, new FabricItemSettings().maxCount(1),249));
 
     //hammer stuff
     public static final Item HILT = registerItem("hilt", new Item(new FabricItemSettings()));

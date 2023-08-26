@@ -1,0 +1,10 @@
+{
+  "snapdragon_disc_music_disc": {
+    "sound": [
+      {
+        "name": "cavesexpanded:snapdragon_disc_music_disc",
+        "stream": true
+      }
+    ]
+  }
+}

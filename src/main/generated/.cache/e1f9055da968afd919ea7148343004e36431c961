@@ -1,4 +1,4 @@
-// 1.20.1	2023-08-24T00:50:04.1039774	Caves Expanded/Model Definitions
+// 1.20.1	2023-08-25T14:35:35.3672543	Caves Expanded/Model Definitions
 17364b5ccf50575898e8ee25f531fae1ceeec27a assets\cavesexpanded\models\block\opal_block.json
 eba0f0cc3682189ef56f8e3e47d50e7cc7d5567e assets\cavesexpanded\blockstates\sapphire_block.json
 649d32856a3faed96e70da5f3333e7cef741ee18 assets\cavesexpanded\models\item\opal_block.json
@@ -26,9 +26,9 @@ be8fea49006e2da91cb5b242ab27dd34f9ac0c70 assets\cavesexpanded\models\item\copper
 c87bf58eaf23a6e0b27416151728bcc6dae14386 assets\cavesexpanded\models\block\sapphire_block.json
 27ac66b3592b9721f6ed8af29b062abc435165c0 assets\cavesexpanded\blockstates\sapphire_ore.json
 4a8ba5860017d94ff69159a1d1e60b50ee1fb85b assets\cavesexpanded\models\item\opal_ore.json
+73cdc5683bcc78eaa35e65cb33328efc696ef96e assets\cavesexpanded\models\block\deepslate_sapphire_ore.json
 438ee1dd95603465e28e1586d8c0ec9267118233 assets\cavesexpanded\models\block\opal_ore.json
 10d2b2e938fe1ff68e1cf4ce845baace4b034550 assets\cavesexpanded\models\item\topaz_block.json
-73cdc5683bcc78eaa35e65cb33328efc696ef96e assets\cavesexpanded\models\block\deepslate_sapphire_ore.json
 2b3d6ee68f3e37b0eeda77ac533eeb5485e3feb8 assets\cavesexpanded\models\item\ruby_block.json
 bb57a40d339d216c32ed08409e451cb1147d9be7 assets\cavesexpanded\models\item\deepslate_topaz_ore.json
 412c03adf41d7ce9f9f9da6200d75799246ea5c8 assets\cavesexpanded\models\item\topaz_ore.json
@@ -46,6 +46,7 @@ c5c0b61d541d03d234e7cd793660ee2aa5339e67 assets\cavesexpanded\blockstates\topaz_
 da7c3145fefcebaaa4925255879af65e95881c52 assets\cavesexpanded\models\item\copper_axe.json
 3407c2c33ddddf860f4681acb0f257ecb9750f1a assets\cavesexpanded\blockstates\deepslate_topaz_ore.json
 dd3a803df4bf3737d96db7a03ad97b02e221e8d5 assets\cavesexpanded\models\block\deepslate_topaz_ore.json
+e852101248ddaa5dfd2ce89c405f228f9c99e0a3 assets\cavesexpanded\models\item\snapdragon_disc_music_disc.json
 802c1909137485a94d1e7d3c7fe2e31a185e41ec assets\cavesexpanded\blockstates\topaz_block.json
 97181d38b7472cecb069935e25bec0eb41e1cbdc assets\cavesexpanded\models\item\ruby_ore.json
 24590a09d7a0e64f4baaa5d596df5d39d4b39cce assets\cavesexpanded\models\item\hilt.json
